@@ -7,13 +7,20 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/styles.css">
-        <title>Contact</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <title>Home</title>
+        <script src="./Javascript/script.js"></script>
     </head>
-<body>
+<body class="">
   <div id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="autohide navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Amapolas</a>
+          <div class="col col-md-2 text-center">
+            <a class="navbar-brand"  href="../index.html"><img  width="30" src="https://cdn3.iconfinder.com/data/icons/font-awesome-brands/512/kickstarter-k-512.png" alt=""></a>
+          </div>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -39,7 +46,7 @@
                       <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Food
+                            Menu
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">Breakfast</a></li>
@@ -52,8 +59,8 @@
                       </ul>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="./booking.html" tabindex="-1" aria-disabled="true">Book a table</a>
-                    </li>
+                      <a class="nav-link" href="./pages/booking.html">Book a table</a>
+                  </li>
                 </ul>
             </div>
         </div>
@@ -61,128 +68,58 @@
 
 </div>
     <div id="main">
-        <div class="px-4 py-5 my-5 text-center">
-          <img class="d-block mx-auto mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-          <h1 class="display-5 fw-bold">Meet the chefs</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-
-          </div>
-        </div>
-  
-  
-  
-        
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-md-6 border text-center">
-            
-
-              <img src="../IMAGENES/chef_1.jpg" class="img-thumbnail rounded-circle img-fluid w-50 mb-4" alt="...">
-
-            
-
-            <h2>Daniel Graham</h2>
-            <div>MASTER CHEF</div>
-            
-            <div class="row justify-content-center">
-              <div class="col-md-8 border">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. It is a paradisematic country.</p>
-              </div>
-            </div>
-
-            <div class="row justify-content-center text-center">
-              <div class="col-md-2 border">
-                IG
-              </div>
-              <div class="col-md-2 border">
-                TW
-              </div>
-              <div class="col-md-2 border">
-                FB
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-6 border text-center">
-            <h2>Nick Browning</h2>
-            <div>MASTER CHEF</div>
-            
-            <div class="row justify-content-center">
-              <div class="col-md-8 border">
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. It is a paradisematic country.</p>
-              </div>
-            </div>
-
-            <div class="row justify-content-center text-center">
-              <div class="col-md-2 border">
-                IG
-              </div>
-              <div class="col-md-2 border">
-                TW
-              </div>
-              <div class="col-md-2 border">
-                FB
-              </div>
-            </div>
-          </div>
-        </div>
-  
+      <div class="row">
+        <div class="col"></div>
       </div>
-
-    
-
     </div>
+
+
+
+
     <div id="footer">
-      <div class="container-fluid">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-          <div class="col mb-3">
+      <div class="container-fluid bg-">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5">
+          <div class="col mb-3 ">
             <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use>io</svg>
             </a>
-            <p class="text-muted">© 2022</p>
+            <p class="text-muted text-center ps-3 pt-3 ms-2">KARMA</p>
           </div>
       
-          <div class="col mb-3">
+          <div class="col mb-2">
+            <h5 class="text-center">Karma</h5>
+            <ul class="nav flex-column align-items-center">
+              <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="./pages/about-us.html" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+              <li class="nav-item mb-2"><a href="./booking.html" class="nav-link p-0 text-muted">Book a table</a></li>
+            </ul>
+          </div> <br>
       
-          </div>
+          <div class="col mb-3">
+            <h5 class="text-center">Follow us</h5>
+            <ul class="nav flex-column align-items-center">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pinterest</a></li>
+            </ul>
+          </div> <br>
       
           <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <h5 class="text-center">Legal </h5>
+            <ul class="nav flex-column align-items-center">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Legal</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
             </ul>
           </div>
-      
+
           <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
+             <img class="w-50 text-center p-3" src="https://cdn4.iconfinder.com/data/icons/emoji-exspression/32/Smile-512.png" alt="">
+            </div>
+
         </footer>
       </div>
     </div>

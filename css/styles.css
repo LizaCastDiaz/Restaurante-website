@@ -31,9 +31,15 @@
     16 a 600
     14 700(button)*/
 }
+/* General styles */
 
 /* Header */
-
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
 
 /* Main */
 /* Video-home */
@@ -59,9 +65,25 @@
     
 }
 
+/* Button */
+.reserve-button {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.reserve-button:hover{
+ color: var(--clr-links);
+ border: 2px solid var(--clr-links);
+
+}
+
+
 #footer {
-    background-color: rgba(0,0,0,.3);
     
-
-
 }

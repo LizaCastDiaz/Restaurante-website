@@ -12,6 +12,36 @@
    }
    
 
+/* Redes */
+
+.face{ 
+    background-image: url(/Imagenes/icon/fbook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2% ;
+    height: 2%;
+    margin-left: 10px;
+}
+.insta{
+    background-image: url(/Imagenes/icon/insta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    width: 2% ;
+    height: 2%;
+
+}
+.twitter{
+    background-image: url(/Imagenes/icon/twitter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    width: 2% ;
+    height: 2%;
+
+
+}
+
 /* Footer */
 #footer {
     margin-top: 10px;

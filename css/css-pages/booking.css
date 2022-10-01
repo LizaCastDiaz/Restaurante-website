@@ -1,0 +1,83 @@
+:root{
+    /* --breakpoint-xs: 0;
+   --breakpoint-sm: 576px;
+   --breakpoint-md: 768px;
+   --breakpoint-lg: 992px;
+   --breakpoint-xl: 1200px; */
+
+/* Fonts */
+   --ff-primary: 'Playfair Display', serif;
+   --ff-secondary: 'Open Sans', sans-serif;
+   --ff-heading: var(--ff-primary);
+   --ff-body: var(--ff-secondary);
+   --fw-light: 300;
+   --fw-regular: 400;
+   --fw-medium: 500;
+   --fw-semi-bold: 600;
+
+   /* Colors */
+   --clr-titles: #000;
+   --clr-words: #b3b3b3;
+   --clr-links: #ff7a5c;
+   --clr-white: #fff;
+/*
+   70 h2 900
+   50 h2 500
+   30
+   22 h3 500
+   20 h3 500
+   20 p 300
+   18 h4
+   16 a 600
+   14 700(button)*/
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-links);
+}
+
+a:hover {
+    color: var(--clr-links);
+}
+
+/* Main */
+
+.main {
+    height: 100vh;
+}
+
+/* Button - icons styles */
+.icon-person{
+
+}
+.icon-call{
+
+}
+.icon-email{
+
+}
+.icon-dropdown{
+
+}
+.icon-calendar{
+
+}
+.icon-time{
+
+}
+
+
+
+
+
+.btn-reserve{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--clr-links);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--clr-links);
+}

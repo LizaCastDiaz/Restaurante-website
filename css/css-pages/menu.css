@@ -1,0 +1,15 @@
+/* Nav bar menu */
+
+.nav-menu-lis {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.menu-img{
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    float: left;
+    margin-right: 30px;
+}
