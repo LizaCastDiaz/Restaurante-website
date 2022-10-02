@@ -2,17 +2,20 @@
 Restaurante website.
 <h1 align="center"> KARMA RESTAURANT WEB-SITE </h1>
 <h4 align="center">Pagina web, completamente responsive. </h4>
- <a text-aline="center" href="">Ver KARMA WEBSITE</a>
-
-<hr>
 
 <p align="center">Este es el primer proyecto creado en el Bootcamp de GeekHub Academy. Una forma de evaluar los conocimietnos adquiridos durante la segunda semana de bootcamp. </p>
-<p>La Web esta dividida en 5 partes. Cada una con su respectiva Barra de navegacion y Footer</p>
-1. Home:
+
+
+##### <p  align="center">La Web esta dividida en 5 partes. Cada una con su respectiva Barra de navegacion y Footer</p>
+#### Partes: 
+1. Home
 2. About us 
 3. Get in touch
 4. Menu 
-5. Book a Table
+5. Book a table
+
+<hr>
+
 <h4 align="center">Home </h4>
 <img src="/Imagenes/Readme/home.png" alt="Home">
 <h4 align="center">Menu </h4>
