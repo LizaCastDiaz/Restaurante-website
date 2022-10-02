@@ -33,7 +33,9 @@
 }  
   
   /* Video styles */
-   
+   .co-video {
+    height: 520px;
+   }
 
    .video-about-us{
     object-fit: cover;
@@ -57,6 +59,13 @@ h1 {
     font-family: var(--ff-primary);
 }
 h5 {
+    font-family: var(--ff-pri);
+    font-weight: var(--fw-semi-bold);
+    line-height: 1.8;
+    color: var(--clr-titles)
+}
+
+#master {
     font-family: var(--ff-secondary);
     font-weight: var(--fw-semi-bold);
     line-height: 1.8;
@@ -65,6 +74,7 @@ h5 {
 }
 p {
     font-family: var(--ff-secondary);
+    
 
 }
 
@@ -74,7 +84,10 @@ a {
     font-size: 16px;
   }
 
-
+#karma-text{
+    font-family: var(--ff-heading);
+  letter-spacing: 10px;
+}
 /* Redes */
 
 .face{ 
@@ -111,12 +124,14 @@ a {
 }
 
 /* Media Q */
-@media (max-width: 360px) {
-    .iconkarma {
-    
+@media (max-width: 500px) {
+ 
+
+    .story-container p{
+     font-size: 16px;
     }
-    .iconkarma > navbar-brand {
-      background-color: rebeccapurple;
-    
-    }
+
+   .co-video {
+        height: 720px;
+       }
     }

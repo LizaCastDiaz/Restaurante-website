@@ -32,9 +32,18 @@
    14 700(button)*/
 }
 
+/* text-style */
+#karma-text{
+    font-family: var(--ff-heading);
+  letter-spacing: 10px;
+}
+
 a {
     text-decoration: none;
     color: var(--clr-links);
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 16px;
 }
 
 a:hover {
@@ -47,25 +56,6 @@ a:hover {
     height: 100vh;
 }
 
-/* Button - icons styles */
-.icon-person{
-
-}
-.icon-call{
-
-}
-.icon-email{
-
-}
-.icon-dropdown{
-
-}
-.icon-calendar{
-
-}
-.icon-time{
-
-}
 
 
 
@@ -81,3 +71,14 @@ a:hover {
     background-image: none;
     border-color: var(--clr-links);
 }
+/* Media Q */
+@media (max-width: 500px) {
+ 
+    .story-container p{
+     font-size: 10px;
+    }
+
+   .co-video {
+        height: 820px;
+       }
+    }

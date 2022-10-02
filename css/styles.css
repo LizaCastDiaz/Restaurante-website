@@ -93,6 +93,7 @@ h1{
 
 }
 
+
 p{
   font-family: var(--ff-body);
 
@@ -102,6 +103,7 @@ a {
   font-weight: var(--fw-light);
   font-size: 16px;
 }
+
 
 #karma-text{
   font-family: var(--ff-heading);
