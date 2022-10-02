@@ -4,12 +4,27 @@ Restaurante website.
 <h4 align="center">Pagina web, completamente responsive. </h4>
  <a text-aline="center" href="">Ver KARMA WEBSITE</a>
 
+<hr>
 
+<p align="center">Este es el primer proyecto creado en el Bootcamp de GeekHub Academy. Una forma de evaluar los conocimietnos adquiridos durante la segunda semana de bootcamp. </p>
+<p>La Web esta dividida en 5 partes. Cada una con su respectiva Barra de navegacion y Footer</p>
+1. Home:
+2. About us 
+3. Get in touch
+4. Menu 
+5. Book a Table
+<h4 align="center">Home </h4>
+<img src="/Imagenes/Readme/home.png" alt="Home">
+<h4 align="center">Menu </h4>
+<img src="/Imagenes/Readme/menu.png" alt="Menu">
+<h4 align="center">Booking </h4>
+<img src="/Imagenes/Readme/book.png" alt="Menu">
+<h4 align="center">Navegation Bar </h4>
+<img src="/Imagenes/Readme/nav.png" alt="">
+<h4 align="center">Footer </h4>
+<img src="/Imagenes/Readme/footer.png" alt="Footer">
 
-Este es el primer proyecto creado en el Bootcamp de GeekHub Academy. Una forma de evaluar los conocimietnos adquiridos durante la segunda semana de bootcamp. 
-
-
-
+<hr>
 
 <h2 text-align: center>Herramientas y recursos</h2>
 
@@ -32,7 +47,6 @@ Se puede obtener una lectura de color desde cualquier punto de su navegador, aju
 https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp
 
 
-<img src="." alt="">
 
 ###### WhatFont:
 Identifica el tipo de Font que hay en una pagina web.
@@ -86,6 +100,8 @@ https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
 ---
 ### Webs en las que me inspire.
 https://en.northleg.com/valencia/
+
+
 
 
 
