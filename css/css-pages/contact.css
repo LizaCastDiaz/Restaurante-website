@@ -79,6 +79,12 @@ h2{
    font-weight: var(--fw-light);
    font-size: 16px;
  }
+
+ .drop{
+   font-family: var(--ff-body);
+   font-weight: var(--fw-light);
+   font-size: 16px;
+ }
  
  
  #karma-text{

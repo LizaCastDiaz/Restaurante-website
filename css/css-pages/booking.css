@@ -56,6 +56,11 @@ a:hover {
     height: 100vh;
 }
 
+.drop{
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 16px;
+  }
 
 
 

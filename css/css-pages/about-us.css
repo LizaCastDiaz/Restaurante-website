@@ -84,6 +84,12 @@ a {
     font-size: 16px;
   }
 
+.drop{
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 16px;
+  }
+
 #karma-text{
     font-family: var(--ff-heading);
   letter-spacing: 10px;
@@ -114,7 +120,6 @@ a {
     margin-left: 10px;
     width: 2% ;
     height: 2%;
-
 
 }
 
