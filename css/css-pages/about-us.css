@@ -1,4 +1,38 @@
-   /* Video styles */
+:root{
+    /* --breakpoint-xs: 0;
+   --breakpoint-sm: 576px;
+   --breakpoint-md: 768px;
+   --breakpoint-lg: 992px;
+   --breakpoint-xl: 1200px; */
+
+/* Fonts */
+   --ff-primary: 'Playfair Display', serif;
+   --ff-secondary: 'Open Sans', sans-serif;
+   --ff-heading: var(--ff-primary);
+   --ff-body: var(--ff-secondary);
+   --fw-light: 300;
+   --fw-regular: 400;
+   --fw-medium: 500;
+   --fw-semi-bold: 600;
+
+   /* Colors */
+   --clr-titles: #000;
+   --clr-words: #b3b3b3;
+   --clr-links: #ff7a5c;
+   --clr-white: #fff;
+/*
+   70 h2 900
+   50 h2 500
+   30
+   22 h3 500
+   20 h3 500
+   20 p 300
+   18 h4
+   16 a 600
+   14 700(button)*/
+}  
+  
+  /* Video styles */
    
 
    .video-about-us{
@@ -10,7 +44,36 @@
     min-height: 100%;
     min-width: 100%;
    }
+   .row-videos{
+    background-color: rgba(0,0,0,.6);
+    position: absolute; 
+    height: 100%;
+
+   }
+  
    
+/* text style */
+h1 {
+    font-family: var(--ff-primary);
+}
+h5 {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-semi-bold);
+    line-height: 1.8;
+    color: var(--clr-links);
+
+}
+p {
+    font-family: var(--ff-secondary);
+
+}
+
+a {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 16px;
+  }
+
 
 /* Redes */
 
@@ -46,3 +109,14 @@
 #footer {
     margin-top: 10px;
 }
+
+/* Media Q */
+@media (max-width: 360px) {
+    .iconkarma {
+    
+    }
+    .iconkarma > navbar-brand {
+      background-color: rebeccapurple;
+    
+    }
+    }

@@ -32,6 +32,9 @@
     14 700(button)*/
 }
 /* General styles */
+body{
+  font-family: var(--ff-primary);
+}
 
 /* Header */
 .scrolled-down{
@@ -40,6 +43,7 @@
   .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
   }
+
 
 /* Main */
 /* Video-home */
@@ -60,9 +64,9 @@
 
 .container-video-text{
     background-color: rgba(0,0,0,.6);
-    position: absolute; 
+    position: absolute;
     height: 100vh;
-    
+
 }
 
 /* Button */
@@ -83,7 +87,39 @@
 
 }
 
+/* text styles */
+h1{
+  font-family: var(--ff-primary);
 
-#footer {
-    
+}
+
+p{
+  font-family: var(--ff-body);
+
+}
+a {
+  font-family: var(--ff-body);
+  font-weight: var(--fw-light);
+  font-size: 16px;
+}
+
+#karma-text{
+  font-family: var(--ff-heading);
+  letter-spacing: 10px;
+
+}
+
+
+
+
+/* Media Q */
+@media (max-width: 360px) {
+.iconkarma {
+
+
+}
+.iconkarma  a {
+  margin-left: 100px;
+
+}
 }
