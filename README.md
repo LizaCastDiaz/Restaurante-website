@@ -3,7 +3,7 @@ KARMA.
 <h1 align="center"> KARMA RESTAURANT WEB-SITE </h1>
 <h4 align="center">Pagina web, completamente responsive. </h4>
 
-<p align="center">Este es el primer proyecto creado en el Bootcamp de GeekHub Academy. Una forma de evaluar los conocimietnos adquiridos durante la segunda semana de bootcamp. </p>
+<p align="center">Este es el segundo proyecto creado en el Bootcamp de GeekHub Academy. Una forma de evaluar los conocimietnos adquiridos durante la segunda semana de bootcamp. </p>
 
 
 ##### <p  align="center">La Web esta dividida en 5 partes. Cada una con su respectiva Barra de navegacion y Footer</p>
