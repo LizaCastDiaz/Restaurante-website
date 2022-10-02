@@ -38,7 +38,7 @@ li {
 
 /* text style */
 a {
-    font-family: var(--fw-semi-bold);
+    font-family: var(--ff-heading);
     font-weight: var(--fw-light);
     font-size: 16px;
     text-decoration: none;
