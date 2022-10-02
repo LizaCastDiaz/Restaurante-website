@@ -1,5 +1,5 @@
-# Restaurante-website
-Restaurante website.
+
+KARMA.
 <h1 align="center"> KARMA RESTAURANT WEB-SITE </h1>
 <h4 align="center">Pagina web, completamente responsive. </h4>
 
