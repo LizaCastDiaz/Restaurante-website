@@ -1,26 +1,26 @@
-:root{
+:root {
     /* --breakpoint-xs: 0;
    --breakpoint-sm: 576px;
    --breakpoint-md: 768px;
    --breakpoint-lg: 992px;
    --breakpoint-xl: 1200px; */
 
-/* Fonts */
-   --ff-primary: 'Playfair Display', serif;
-   --ff-secondary: 'Open Sans', sans-serif;
-   --ff-heading: var(--ff-primary);
-   --ff-body: var(--ff-secondary);
-   --fw-light: 300;
-   --fw-regular: 400;
-   --fw-medium: 500;
-   --fw-semi-bold: 600;
+    /* Fonts */
+    --ff-primary: 'Playfair Display', serif;
+    --ff-secondary: 'Open Sans', sans-serif;
+    --ff-heading: var(--ff-primary);
+    --ff-body: var(--ff-secondary);
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
 
-   /* Colors */
-   --clr-titles: #000;
-   --clr-words: #b3b3b3;
-   --clr-links: #ff7a5c;
-   --clr-white: #fff;
-/*
+    /* Colors */
+    --clr-titles: #000;
+    --clr-words: #b3b3b3;
+    --clr-links: #ff7a5c;
+    --clr-white: #fff;
+    /*
    70 h2 900
    50 h2 500
    30
@@ -33,9 +33,9 @@
 }
 
 /* text-style */
-#karma-text{
+#karma-text {
     font-family: var(--ff-heading);
-  letter-spacing: 10px;
+    letter-spacing: 10px;
 }
 
 a {
@@ -56,19 +56,15 @@ a:hover {
     height: 100vh;
 }
 
-.drop{
+.drop {
     font-family: var(--ff-body);
     font-weight: var(--fw-light);
     font-size: 16px;
-  }
+}
 
-
-
-
-
-.btn-reserve{
+.btn-reserve {
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
     font-size: 14px;
     font-weight: 700;
     color: var(--clr-links);
@@ -78,12 +74,12 @@ a:hover {
 }
 /* Media Q */
 @media (max-width: 500px) {
- 
-    .story-container p{
-     font-size: 10px;
+
+    .story-container p {
+        font-size: 10px;
     }
 
-   .co-video {
+    .co-video {
         height: 820px;
-       }
     }
+}
