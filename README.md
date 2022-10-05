@@ -17,15 +17,15 @@ KARMA.
 <hr>
 
 <h4 align="center">Home </h4>
-<img src="/Imagenes/Readme/home.png" alt="Home">
+<img src="./assets/home.png" alt="Home">
 <h4 align="center">Menu </h4>
-<img src="/Imagenes/Readme/menu.png" alt="Menu">
+<img src="./assets/menu.png" alt="Menu">
 <h4 align="center">Booking </h4>
-<img src="/Imagenes/Readme/book.png" alt="Menu">
+<img src="./assets/menu.png" alt="Menu">
 <h4 align="center">Navegation Bar </h4>
-<img src="/Imagenes/Readme/nav.png" alt="">
+<img src="./assets/nav.png" alt="">
 <h4 align="center">Footer </h4>
-<img src="/Imagenes/Readme/footer.png" alt="Footer">
+<img src="./assets/footer.png"alt="Footer">
 
 <hr>
 
