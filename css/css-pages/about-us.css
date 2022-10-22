@@ -14,22 +14,15 @@
     --fw-regular: 400;
     --fw-medium: 500;
     --fw-semi-bold: 600;
+   
 
     /* Colors */
     --clr-titles: #000;
     --clr-words: #b3b3b3;
     --clr-links: #ff7a5c;
     --clr-white: #fff;
-    /*
-   70 h2 900
-   50 h2 500
-   30
-   22 h3 500
-   20 h3 500
-   20 p 300
-   18 h4
-   16 a 600
-   14 700(button)*/
+   
+  
 }
 
 /* Video styles */
@@ -57,11 +50,12 @@
 h1 {
     font-family: var(--ff-primary);
 }
-h5 {
-    font-family: var(--ff-pri);
-    font-weight: var(--fw-semi-bold);
-    line-height: 1.8;
-    color: var(--clr-titles);
+ h5 {
+   
+     font-family: var(--ff-primary);
+}
+h2 {
+    font-family: var(--ff-primary);
 }
 
 #master {
@@ -72,20 +66,26 @@ h5 {
 
 }
 p {
-    font-family: var(--ff-secondary);
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 17px;
+    line-height: 1.8;
 
 }
 
 a {
-    font-family: var(--ff-body);
+    font-family: var(--ff-heading);
     font-weight: var(--fw-light);
-    font-size: 16px;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--clr-links);
+   
 }
 
 .drop {
     font-family: var(--ff-body);
     font-weight: var(--fw-light);
-    font-size: 16px;
+    
 }
 
 #karma-text {
@@ -127,7 +127,7 @@ a {
 }
 
 /* Media Q */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 
     .story-container p {
         font-size: 16px;
@@ -136,4 +136,4 @@ a {
     .co-video {
         height: 720px;
     }
-}
+} */

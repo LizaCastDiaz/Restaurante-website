@@ -1,11 +1,5 @@
 :root {
-    /* --breakpoint-xs: 0;
-   --breakpoint-sm: 576px;
-   --breakpoint-md: 768px;
-   --breakpoint-lg: 992px;
-   --breakpoint-xl: 1200px; */
-
-    /* Fonts */
+/* Fonts */
     --ff-primary: 'Playfair Display', serif;
     --ff-secondary: 'Open Sans', sans-serif;
     --ff-heading: var(--ff-primary);
@@ -20,16 +14,8 @@
     --clr-words: #b3b3b3;
     --clr-links: #ff7a5c;
     --clr-white: #fff;
-    /*
-   70 h2 900
-   50 h2 500
-   30
-   22 h3 500
-   20 h3 500
-   20 p 300
-   18 h4
-   16 a 600
-   14 700(button)*/
+   
+  
 }
 
 /* text-style */
@@ -43,9 +29,12 @@ a {
     color: var(--clr-links);
     font-family: var(--ff-body);
     font-weight: var(--fw-light);
-    font-size: 16px;
+    
 }
+h5 {
+    font-family: var(--ff-heading);
 
+}
 a:hover {
     color: var(--clr-links);
 }
@@ -59,8 +48,13 @@ a:hover {
 .drop {
     font-family: var(--ff-body);
     font-weight: var(--fw-light);
-    font-size: 16px;
+    
 }
+p {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-light);
+    font-size: 17px;
+    line-height: 1.8; }
 
 .btn-reserve {
     text-transform: uppercase;
